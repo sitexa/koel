@@ -10,6 +10,14 @@
 
 For system requirements, installation/upgrade guides, troubleshooting etc., head over to the [Official Documentation](http://koel.phanan.net/docs).
 
+> git clone https://github.com/phanan/koel
+> cd koel
+> composer install
+> vi .env # Fill in database info and initial admin account
+> php artisan koel:init
+> php artisan serve
+> Server started on http://localhost:8000/
+
 ## Native App
 
 An [electron](http://electron.atom.io/)-based desktop client, in its early days, is also available [here](https://github.com/phanan/koel-app).
